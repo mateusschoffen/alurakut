@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import Box from '../Box';
 
-const ProfileRelationsBoxWrapper = styled(Box)`
+export const ProfileRelationsBoxWrapper = styled(Box)`
   ul {
     display: grid;
     grid-gap: 8px;
@@ -49,6 +49,4 @@ const ProfileRelationsBoxWrapper = styled(Box)`
       background-image: linear-gradient(0deg,#00000073,transparent);
     }
   }
-`
-
-export default ProfileRelationsBoxWrapper;
+`; 

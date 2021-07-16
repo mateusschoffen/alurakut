@@ -1,5 +1,5 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
-import { AlurakutStyles } from '../src/lib/AluraCommons';
+import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import { AlurakutStyles } from '../src/lib/AlurakutCommons';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -7,21 +7,26 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
-    
+
   body {
-    background-color: #D9E6F6;
+    background-image: url(https://picsum.photos/1920/230);
+    background-repeat: no-repeat;
+    background-color: #D0E6F6;
     font-family: sans-serif;
   }
+
   #__next {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
+  
   img {
     max-width: 100%;
     height: auto;
     display: block;
   }
+
   ${AlurakutStyles}
 `
 
